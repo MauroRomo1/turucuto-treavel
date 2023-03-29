@@ -7,3 +7,20 @@ body {
 footer {
   margin-top: auto;
 }
+
+/*===== Navbar ===== */
+#logo {
+  width: 60px;
+  height: 60px;
+  transition: 1s;
+}
+
+#logo:hover {
+  transform: rotate(340deg);
+}
+
+.link-navbar:hover {
+  color: #000;
+}
+
+/* ================ */
