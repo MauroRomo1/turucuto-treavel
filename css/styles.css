@@ -21,6 +21,11 @@ footer {
 
 .link-navbar:hover {
   color: #000;
+  font-weight: bolder;
+}
+
+input:hover {
+  border: 1px solid #000 !important;
 }
 
 /* ================ */
