@@ -2,8 +2,70 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background: #f5f5f5;
 }
 
 footer {
   margin-top: auto;
+}
+
+.navbar-container {
+  background-color: #dddddb;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+  transition: 1s;
+}
+
+#logo:hover {
+  transform: rotate(340deg);
+}
+
+.link-navbar:hover {
+  color: #000;
+  font-weight: bolder;
+}
+
+.btn-register {
+  color: #fff;
+  background-color: #294b77;
+}
+
+.btn-register:hover {
+  color: #fff;
+  background-color: #111728;
+}
+
+.footer-container {
+  background-color: #294b77;
+}
+
+.copyright-container {
+  background-color: #111728;
+}
+
+.modal-login input:hover {
+  border: 1px solid #000 !important;
+}
+
+.modal-login .btn-login {
+  color: #fff;
+  background-color: #294b77;
+}
+
+.modal-login .btn-login:hover {
+  color: #fff;
+  background-color: #111728;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.descripcion-img {
+  text-align: center;
+  margin-top: 10px;
 }
