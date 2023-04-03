@@ -7,3 +7,83 @@ body {
 footer {
   margin-top: auto;
 }
+<<<<<<< Updated upstream
+=======
+
+/*===== Navbar ===== */
+
+.navbar-container {
+  background-color: #dddddb;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+  transition: 1s;
+}
+
+#logo:hover {
+  transform: rotate(340deg);
+}
+
+.link-navbar:hover {
+  color: #000;
+  font-weight: bolder;
+}
+
+.btn-register {
+  color: #fff;
+  background-color: #294b77;
+}
+
+.btn-register:hover {
+  color: #fff;
+  background-color: #111728;
+}
+
+/* ================ */
+
+/* ===== Footer ===== */
+
+.footer-container {
+  background-color: #294b77;
+}
+
+.copyright-container {
+  background-color: #111728;
+}
+
+/* ================== */
+
+/* ===== modal de login ===== */
+
+.modal-login input:hover {
+  border: 1px solid #000 !important;
+}
+
+.modal-login .btn-login {
+  color: #fff;
+  background-color: #294b77;
+}
+
+.modal-login .btn-login:hover {
+  color: #fff;
+  background-color: #111728;
+}
+
+/* ========================== */
+
+/* About Us */
+
+.logo_about {
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+}
+
+.logo_avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+>>>>>>> Stashed changes
