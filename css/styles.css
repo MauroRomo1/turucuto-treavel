@@ -7,8 +7,6 @@ body {
 footer {
   margin-top: auto;
 }
-<<<<<<< Updated upstream
-=======
 
 /*===== Navbar ===== */
 
@@ -73,7 +71,7 @@ footer {
 
 /* ========================== */
 
-/* About Us */
+/* ======== About Us ========== */
 
 .logo_about {
   width: 150px;
@@ -86,4 +84,4 @@ footer {
   height: 150px;
   border-radius: 50%;
 }
->>>>>>> Stashed changes
+/* ========================== */
