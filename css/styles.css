@@ -71,3 +71,18 @@ footer {
 }
 
 /* ========================== */
+
+/* ======== About Us ========== */
+
+.logo_about {
+  width: 200px;
+  height: 150px;
+  border-radius: 20%;
+}
+
+.logo_avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+/* ========================== */
