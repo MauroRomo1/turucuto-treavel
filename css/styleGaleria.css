@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+main {
+  margin: 10px;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.navbar-container {
+  background-color: #dddddb;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+  transition: 1s;
+}
+
+#logo:hover {
+  transform: rotate(340deg);
+}
+
+.link-navbar:hover {
+  color: #000;
+  font-weight: bolder;
+}
+
+.btn-register {
+  color: #fff;
+  background-color: #294b77;
+}
+
+.btn-register:hover {
+  color: #fff;
+  background-color: #111728;
+}
+
+.footer-container {
+  background-color: #294b77;
+}
+
+.copyright-container {
+  background-color: #111728;
+}
+
+.modal-login input:hover {
+  border: 1px solid #000 !important;
+}
+
+.modal-login .btn-login {
+  color: #fff;
+  background-color: #294b77;
+}
+
+.modal-login .btn-login:hover {
+  color: #fff;
+  background-color: #111728;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card-galeria {
+  border: 3px solid #f5f5f5;
+  border-radius: 10px;
+}
+
+.card-galeria img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.descripcion {
+  padding: 10px;
+  text-align: justify;
+}
+
+.descripcion h4 {
+  text-align: center;
+}
+
+.centrar-items {
+  text-align: center;
+  margin: 5px;
+}
+
+@media screen and (min-width: 570px) {
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .galeria {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.boton-back {
+  padding: 15px 30px;
+  background-color: #294b77;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.boton-back:hover {
+  background-color: #0a58ca;
+}
+
+.titulo-principal {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
