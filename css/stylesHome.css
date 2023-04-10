@@ -43,13 +43,14 @@ footer {
 /* ================ */
 
 /* Pagina Principal */
-.destacados {
-  display: flex;
+
+.img-carousel {
+  max-height: 89vh;
+  object-fit: cover;
 }
 
-.img {
-  margin-right: 20px;
-  text-align: center;
+.destacados {
+  display: flex;
 }
 
 .descripcion {
@@ -68,6 +69,10 @@ footer {
 .btn-pag-principal:hover {
   background-color: #111728;
   color: #fff;
+}
+
+.pagination-item {
+  background-color: #294b77 !important;
 }
 
 /* ================ */
