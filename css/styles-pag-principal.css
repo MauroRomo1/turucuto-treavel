@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/*===== Navbar ===== */
+
+.navbar-container {
+  background-color: #dddddb;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+  transition: 1s;
+}
+
+#logo:hover {
+  transform: rotate(340deg);
+}
+
+.link-navbar:hover {
+  color: #000;
+  font-weight: bolder;
+}
+
+.btn-register {
+  color: #fff;
+  background-color: #294b77;
+}
+
+.btn-register:hover {
+  color: #fff;
+  background-color: #111728;
+}
+
+/* ================ */
+
+/* Pagina Principal */
+.destacados {
+  display: flex;
+}
+
+.img {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.descripcion {
+  margin-top: 25px;
+}
+
+.btn-pag-principal {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #294b77;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-pag-principal:hover {
+  background-color: #111728;
+  color: #fff;
+}
+
+/* ================ */
+
+/* ===== Footer ===== */
+
+.footer-container {
+  background-color: #294b77;
+}
+
+.copyright-container {
+  background-color: #111728;
+}
+
+/* ================== */
+
+/* ===== modal de login ===== */
+
+.modal-login input:hover {
+  border: 1px solid #000 !important;
+}
+
+.modal-login .btn-login {
+  color: #fff;
+  background-color: #294b77;
+}
+
+.modal-login .btn-login:hover {
+  color: #fff;
+  background-color: #111728;
+}
+
+/* ========================== */
