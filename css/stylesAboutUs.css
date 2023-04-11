@@ -74,10 +74,30 @@ footer {
 
 /* ======== About Us ========== */
 
-.logo_about {
-  width: 200px;
-  height: 150px;
-  border-radius: 20%;
+.banner-aboutUs {
+  object-fit: cover;
+  max-height: 88vh;
+}
+
+.overlay-banner-bg::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.overlay-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
 }
 
 .logo_avatar {
