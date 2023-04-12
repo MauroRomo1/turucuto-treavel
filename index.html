@@ -11,24 +11,592 @@
       crossorigin="anonymous"
     />
     <!-- link de CSS propio -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/stylesBlog.css" />
     <title>Turucuto Travel</title>
   </head>
   <body>
     <header>
-      <h2>soy el header</h2>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-container">
+        <div class="container">
+          <a class="navbar-brand" href="../pages/homePage.html">
+            <img
+              src="../images/logo.png"
+              alt="Logo"
+              id="logo"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <a class="nav-link" href="../pages/homePage.html">
+            <span class="align-middles fw-bold">Turucuto Travel</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end text-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link link-navbar" href="../pages/homePage.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-navbar" href="#">Reseñas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-navbar" href="#">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-navbar" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-navbar" href="../pages/aboutUs.html"
+                  >Acerca de nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="btn btn-outline-secondary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                  >Inicia sesión</a
+                >
+              </li>
+              <li class="nav-item ms-lg-1 mt-1 mt-lg-0">
+                <a class="btn btn-register" href="../pages/register.html"
+                  >Registrarse</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-      <h1>Hello, world!</h1>
+      <!-- pantalla ppal -->
+      <section>
+        <div class="my-blog pt-0">
+          <img class="w-100" src="./images/entrada-bog/blog-img1.jpg" />
+          <div class="title1 text-center">
+            <h1 class="display-2">¡Queremos saber tu opinión!</h1>
+            <hr class="w-25 mx-auto" />
+          </div>
+        </div>
+      </section>
+      <!-- pantalla blog -->
+      <section class="my-blog container pt-3">
+        <div class="row">
+          <div class="post col-lg-8 col-md-12 col-12">
+            <section>
+              <div class="container">
+                <div class="article-text">
+                  <div class="title-one mb-5">
+                    <h1>
+                      Los destinos más populares del mundo según los viajeros
+                    </h1>
+                    <h6>
+                      Viajeros de todo el mundo escogen entre sus favoritos los
+                      mejores destinos en los que pasar las vacaciones
+                    </h6>
+                  </div>
+                  <div>
+                    <p class="date">
+                      <a>
+                        San Miguel de Tucumán | 10 de abril de 2023 · 18:06
+                      </a>
+                    </p>
+                    <p>
+                      El mundo es tan grande que a la hora de viajar necesitamos
+                      inspiración para decidirnos por un destino u otro. Hoy en
+                      día podemos alcanzar prácticamente cualquier rincón del
+                      planeta; miramos <strong>mapas</strong>, leemos
+                      <strong>libros de viajes</strong>, vemos películas e
+                      imágenes compartidas en redes sociales por otros viajeros,
+                      consultamos <strong>aplicaciones viajeras</strong> en
+                      nuestros móviles… ¡Es tan difícil escoger entre todas las
+                      opciones que tenemos a nuestro alcance!
+                    </p>
+
+                    <p>
+                      Para ello nada mejor que dejarse aconsejar por la
+                      experiencia de otros que viajaron antes que nosotros. Como
+                      cada año desde el 2002, los premios
+                      <strong>Traveller's Choice</strong> de la web TripAdvisor
+                      recogen los destinos más populares del mundo: lo mejor,
+                      escogido por los que más saben, los propios viajeros. Los
+                      destinos ganadores son seleccionados anualmente mediante
+                      un algoritmo que tiene en cuenta los comentarios
+                      compartidos y las puntuaciones que aparecen en esta web
+                      especializada en recoger opiniones de los diferentes
+                      usuarios.
+                    </p>
+                    <p>
+                      Una sorpresa: entre los cinco destinos más populares del
+                      mundo está la ciudad de <strong>Roma</strong>. Además, vas
+                      a encontrar mucha playa, islas paradisíacas, viajes
+                      urbanos a las ciudades más vibrantes y algo de montaña
+                      para que nunca falte la aventura. Podrías dar la vuelta al
+                      mundo sumando uno a uno todos los lugares de esta lista.
+                      Sin duda, sería una vuelta al mundo de lo más popular, ¿no
+                      crees?
+                    </p>
+                    <img
+                      class="img-fluid w-100"
+                      src="./images/entrada-bog/blog-img6.jpg"
+                    />
+                    <div class="txt">
+                      <p class="slide-number">1 / 5</p>
+                    </div>
+
+                    <h5><strong>BALI, INDONESIA</strong></h5>
+                    <p>
+                      <strong>La isla de Bali</strong>, en Indonesia, es la
+                      número uno. ¿Por qué será? Es posible que sean las playas
+                      de arena blanca como <strong>Lovina Beach</strong>, el
+                      verde intenso de sus selvas en el
+                      <strong
+                        >Parque Nacional de Bali Occidental, los antiguos
+                        templos</strong
+                      >
+                      (más de 10.000) o los diferentes senderos para hacer
+                      excursionismo. Alquila una moto para moverte por la isla:
+                      no dejes de ir al templo Tanah Lot para ver atardecer,
+                      piérdete por los
+                      <strong>arrozales de Jatiluwih o en Tegalalang</strong>,
+                      escoge playa o lago, visita algún volcán o, incluso,
+                      aprovecha para casarte ¡Bali es la isla de los dioses!
+                    </p>
+                    <img
+                      class="img-fluid w-100"
+                      src="./images/entrada-bog/blog-img7.jpg"
+                    />
+                    <div class="txt">
+                      <p class="slide-number">2 / 5</p>
+                    </div>
+                    <h5><strong>ISLA DE SAN MARTIN</strong></h5>
+                    <p>
+                      Una joya caribeña que se reparten franceses y holandeses
+                      por parte igual. Cuenta la leyenda que el reparto lo
+                      hicieron mediante una prueba física: un elegido entre los
+                      franceses y otro entre los holandeses, correrían por la
+                      costa hasta volverse a encontrar. El punto de encuentro
+                      sería la línea divisoria. Corre el rumor de que los
+                      franceses regalaron al participante holandés una noche
+                      gastronómica cargada de buen vino. El resultado es que el
+                      corredor holandés avanzó mucho menos que el francés. Por
+                      ello, la parte francesa de la isla es mayor. Sea como sea,
+                      la isla cuenta con
+                      <strong>más de 35 playas que son una delicia.</strong>
+                    </p>
+                    <img
+                      class="img-fluid w-100"
+                      src="./images/entrada-bog/blog-img8.jpg"
+                    />
+                    <div class="txt">
+                      <p class="slide-number">3 / 5</p>
+                    </div>
+                    <h5><strong>PARIS, FRANCIA</strong></h5>
+                    <p>
+                      Podría ocupar la primera posición entra las ciudades más
+                      populares del mundo; pero esta vez,
+                      <strong>París</strong>, se ha quedado en la tercera
+                      posición. La ciudad de la luz, del amor, la ciudad de la
+                      literatura, está llena de atracciones suficientes para una
+                      vida. Es la única ciudad que tiene dos lugares entre los
+                      diez de mayor interés turístico de Europa:
+                      <strong>la Torre Eiffel</strong> y
+                      <strong>Notre Dame</strong>. Pero, ¿qué más? Toda una
+                      clase de arte en el Museo del Louvre, callejear por sus
+                      barrios como <strong>Marais</strong> o el
+                      <strong>Barrio latino</strong>, disfrutar de la
+                      gastronomía en algunos de sus bistro, pasear por la rivera
+                      del <strong>Sena</strong> o visitar el mundo de Amélie
+                      Poulain, ¡París no se acaba nunca!
+                    </p>
+                    <img
+                      class="img-fluid w-100"
+                      src="./images/entrada-bog/blog-img9.jpg"
+                    />
+                    <div class="txt">
+                      <p class="slide-number">4 / 5</p>
+                    </div>
+                    <h5><strong>ROMA, ITALIA</strong></h5>
+                    <p>
+                      La ciudad eterna es una lección de Historia para cualquier
+                      viajero. Además, ¿quién no ha sentido la necesidad de
+                      viajar a <strong>Roma</strong> después de ver alguna
+                      película clásica de Fellini? ¿O quién no ha querido
+                      recorrer la ciudad en Vespa como en Vacaciones en Roma?
+                      Hay tanto que hacer en Roma: ir hasta el centro del
+                      Imperio Romano, ver <strong>el Coliseo</strong> y todas
+                      las ruinas arqueológicas, el Panteón, cruzar El puente
+                      Sant'Angelo, Plaza España, dejarse maravillar con las
+                      obras de arte de los Museos del Vaticano. La Basílica de
+                      San Pedro del Vaticano, además, es la atracción turística
+                      más popular de todas en Europa.
+                    </p>
+                    <img
+                      class="img-fluid w-100"
+                      src="./images/entrada-bog/blog-img10.jpg"
+                    />
+                    <div class="txt">
+                      <p class="slide-number">5 / 5</p>
+                    </div>
+                    <h5><strong>MARRAKECH, MARRUECOS</strong></h5>
+                    <p>
+                      La “ciudad roja”, llamada así por el color de sus
+                      edificaciones, sobre todo con la luz del atardecer, es una
+                      de las ciudades imperiales de <strong>Marruecos</strong>.
+                      A pesar de que Rabat es la capital del país,
+                      <strong>Marrakech</strong> se ha convertido en una urbe
+                      moderna y densamente poblada. A pesar de ellos, al pasear
+                      por su Medina o al ver un crepúsculo sobre la
+                      <strong>plaza de Yamaa el Fna</strong>, uno se transporta
+                      a un tiempo mágico. La sonoridad del lugar, la
+                      hospitalidad tradicional marroquí, la artesanía y la bella
+                      arquitectura siguen siendo argumentos para visitar la
+                      ciudad.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="myblog4 sidebar col-lg-4 col-md-12 col-12">
+            <div class="side2 pt-5">
+              <h4>Otros temas de interés</h4>
+              <hr class="w-50" />
+              <div class="row pb-3">
+                <div class="sideimg col-lg-4 col-md-4 col-4">
+                  <img
+                    class="img-fluid"
+                    src="./images/entrada-bog/blog-img3.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="sidetext col-lg-8 col-md-8 col-8">
+                  <h6>
+                    Las siete maravillas naturales que tenemos en Argentina
+                  </h6>
+                  <a href="#">Leer mas</a>
+                </div>
+              </div>
+              <div class="row pb-3">
+                <div class="sideimg col-lg-4 col-md-4 col-4">
+                  <img
+                    class="img-fluid"
+                    src="./images/entrada-bog/blog-img4.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="sidetext col-lg-8 col-md-8 col-8">
+                  <h6>
+                    Animate y disfrutá de las comidas más exóticas alrededor del
+                    mundo
+                  </h6>
+                  <a href="#">Leer mas</a>
+                </div>
+              </div>
+              <div class="row pb-3">
+                <div class="sideimg col-lg-4 col-md-4 col-4">
+                  <img
+                    class="img-fluid"
+                    src="./images/entrada-bog/blog-img5.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="sidetext col-lg-8 col-md-8 col-8">
+                  <h6>Paises con mejores calidad de vida en este 2023</h6>
+                  <a href="#">Leer mas</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- comentarios -->
+      <section>
+        <div class="container">
+          <h5>COMENTARIOS</h5>
+          <div class="row comments">
+            <div class="col-lg-6">
+              <form
+                action=""
+                class="form-comment d-flex justify-content-end flex-wrap"
+              >
+                <textarea placeholder="Comentario"></textarea>
+                <button class="btn3" type="button">Comentar</button>
+              </form>
+
+              <div class="media">
+                <img
+                  src="./images/entrada-bog/blog-img-user.png"
+                  width="64"
+                  height="64"
+                  alt=""
+                />
+                <div class="media-body">
+                  <p class="name">Juan Perez <span>7:40am, Hoy</span></p>
+                  <p class="comentario">
+                    Espero algún día conocer Indonesia, parece un bello lugar. O
+                    Marruecos, se ve fantástico!
+                  </p>
+                  <div class="buttoms text-end">
+                    <a href="">Responder</a>
+                  </div>
+                </div>
+              </div>
+              <div class="media">
+                <img
+                  src="./images/entrada-bog/blog-img-user.png"
+                  width="64"
+                  height="64"
+                  alt=""
+                />
+                <div class="media-body">
+                  <p class="name">José <span>8:08am, Hoy</span></p>
+                  <p class="comentario">
+                    Estuve en Marruecos y realmente es muy lindo! Lo recomiendo.
+                  </p>
+                  <div class="buttoms text-end">
+                    <a href="">Responder</a>
+                  </div>
+                  <div class="media">
+                    <img
+                      src="./images/entrada-bog/blog-img-user.png"
+                      width="64"
+                      height="64"
+                      alt=""
+                    />
+                    <div class="media-body">
+                      <p class="name">Juan Perez <span>9:32am, Hoy</span></p>
+                      <p class="comentario">
+                        Podrías ayudarme a programar mi próximo viaje? Sería de
+                        gran ayuda!
+                      </p>
+                      <div class="buttoms text-end">
+                        <a href="">Responder</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="media">
+                <img
+                  src="./images/entrada-bog/blog-img-user.png"
+                  width="64"
+                  height="64"
+                  alt=""
+                />
+                <div class="media-body">
+                  <p class="name">Sofía Díaz <span>12:05pm, Hoy</span></p>
+                  <p class="comentario">
+                    Con mi marido queremos conocer Italia, podrían darnos alguna
+                    info.?
+                  </p>
+                  <div class="buttoms text-end">
+                    <a href="">Responder</a>
+                  </div>
+                </div>
+              </div>
+              <div class="media">
+                <img
+                  src="./images/entrada-bog/blog-img-user.png"
+                  width="64"
+                  height="64"
+                  alt=""
+                />
+                <div class="media-body">
+                  <p class="name">Daniel Rodriguez <span>2:32pm, Hoy</span></p>
+                  <p class="comentario">
+                    Ustedes venden pasajes o tours para estos destinos? Me
+                    gustaría tener más info. Muchas Gracias!
+                  </p>
+                  <div class="buttoms text-end">
+                    <a href="">Responder</a>
+                  </div>
+                </div>
+              </div>
+              <div class="media">
+                <img
+                  src="./images/entrada-bog/blog-img-user.png"
+                  width="64"
+                  height="64"
+                  alt=""
+                />
+                <div class="media-body">
+                  <p class="name">María Flores <span>5:51pm, Hoy</span></p>
+                  <p class="comentario">
+                    Viajaría miles de veces a París y no me aburriría, aunque
+                    todavía no sepa hablar francés...
+                  </p>
+                  <div class="buttoms text-end">
+                    <a href="">Responder</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-      <h2>soy el footer</h2>
+      <div class="container-fluid p-3 text-center text-white footer-container">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <h5 class="text-uppercase">Sobre nosotros</h5>
+            <p>
+              Un viaje se vive 3 veces: Cuando lo soñamos, cuando lo vivimos y
+              cuando lo recordamos. Siempre buscando lo mejor para nuestros
+              clientes
+            </p>
+          </div>
+          <div class="col-12 col-lg-4">
+            <h5 class="text-uppercase">otros</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a class="nav-link" href="../pages/error404.html">Seguridad</a>
+              </li>
+              <li>
+                <a class="nav-link" href="../pages/error404.html">privacidad</a>
+              </li>
+              <li>
+                <a class="nav-link" href="../pages/error404.html"
+                  >Terminos y condiciones</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-4">
+            <h5 class="text-uppercase">redes sociales</h5>
+            <a
+              class="text-decoration-none text-primary"
+              href="https://www.facebook.com/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-facebook fa-2xl"></i>
+            </a>
+            <a
+              class="text-decoration-none text-danger"
+              href="https://www.instagram.com/?theme=dark"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram fa-2xl"></i>
+            </a>
+            <a
+              class="text-decoration-none text-primary"
+              href="https://ar.linkedin.com/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center text-white py-2 copyright-container">
+        <h6>&copy; 2023 Copyright: Turucuto Travel</h6>
+      </div>
     </footer>
+
+    <!-- Modal de Login -->
+    <div
+      class="modal fade modal-login"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <p class="align-middles fw-bold h4 ms-auto">
+              <i class="fa-solid fa-user"></i>
+              Inicia sesión
+            </p>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-grid gap-2 mb-3">
+              <button class="btn btn-outline-danger">
+                <i class="fa-brands fa-google"></i>
+                Iniciar con Google
+              </button>
+              <button class="btn btn-outline-primary">
+                <i class="fa-brands fa-facebook"></i>
+                Iniciar con Facebook
+              </button>
+            </div>
+            <hr class="my-4" />
+            <!-- Formulario de login modal -->
+            <form>
+              <div class="mb-3">
+                <label for="recipient-email" class="form-label fw-bold">
+                  <i class="fa-solid fa-envelope text-secondary"></i>
+                  Correo electronico:
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="recipient-email"
+                  required
+                  placeholder="ejemplo@gmail.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="recipient-password" class="form-label fw-bold">
+                  <i class="fa-solid fa-lock text-secondary"></i>
+                  Contraseña:
+                </label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="recipient-password"
+                  required
+                  placeholder="Ingrese su contraseña"
+                />
+              </div>
+              <div class="d-grid mb-3">
+                <button class="btn btn-primary btn-login" type="submit">
+                  Inicia sesión
+                </button>
+              </div>
+              <div class="text-center">
+                <a class="text-decoration-none" href="./pages/error404.html"
+                  >¿Olvidaste tu contraseña?</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------- -->
 
     <!-- script de bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <!-- script de Font awesome iconos -->
+    <script
+      src="https://kit.fontawesome.com/e23bd1dc39.js"
       crossorigin="anonymous"
     ></script>
   </body>
