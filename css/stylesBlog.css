@@ -1,0 +1,262 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/*===== Navbar ===== */
+
+.navbar-container {
+  background-color: #dddddb;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+  transition: 1s;
+}
+
+#logo:hover {
+  transform: rotate(340deg);
+}
+
+.link-navbar:hover {
+  color: #000;
+  font-weight: bolder;
+}
+
+.btn-register {
+  color: #fff;
+  background-color: #294b77;
+}
+
+.btn-register:hover {
+  color: #fff;
+  background-color: #111728;
+}
+
+/* ================ */
+
+/* ===== Footer ===== */
+
+.footer-container {
+  background-color: #294b77;
+}
+
+.copyright-container {
+  background-color: #111728;
+}
+
+/* ================== */
+
+/* ===== modal de login ===== */
+
+.modal-login input:hover {
+  border: 1px solid #000 !important;
+}
+
+.modal-login .btn-login {
+  color: #fff;
+  background-color: #294b77;
+}
+
+.modal-login .btn-login:hover {
+  color: #fff;
+  background-color: #111728;
+}
+
+/* ========================== */
+
+/* =============== blog ==================== */
+
+.my-blog {
+  position: relative;
+}
+
+.my-blog .title1 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+.my-blog .title1 h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #000;
+  letter-spacing: 0.3rem;
+  text-shadow: 2px 2px grey;
+}
+
+/* Estilos para pantallas grandes (monitor) */
+@media (min-width: 901px) {
+  .title1 {
+    padding: 50px;
+  }
+
+  .display-2 {
+    font-size: 5vw;
+  }
+}
+
+/* Estilos para tabletas */
+@media (min-width: 521px) and (max-width: 900.99px) {
+  .title1 {
+    padding: 30px;
+  }
+
+  .title1 {
+    margin-top: auto;
+  }
+
+  .display-2 {
+    font-size: 5vw;
+  }
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 520.99px) {
+  .title1 {
+    padding: 20px;
+  }
+
+  .myblog4 {
+    padding: 20px 25px;
+  }
+
+  .title1 {
+    margin-top: 0cm;
+  }
+
+  .display-2 {
+    font-size: 5vw;
+  }
+
+  hr {
+    width: 25%;
+  }
+
+  .article-text .title-one p {
+    font-size: 20vw;
+  }
+
+  .media {
+    font-size: 0.8rem;
+    padding-top: 2px;
+  }
+}
+
+.my-blog .sidetext a {
+  font-size: 0.9rem;
+  color: #294b77;
+  font-weight: bold;
+  text-decoration: none;
+  border-style: none;
+}
+
+.my-blog .row .one img {
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.img-card-blog {
+  object-fit: cover;
+  height: 300px;
+}
+
+.date {
+  font-size: 75%;
+  color: grey;
+}
+
+.container2 {
+  position: relative;
+  text-align: center;
+  display: inherit;
+}
+
+.top-center {
+  text-align: left;
+  position: absolute;
+  top: 50px;
+  left: 205px;
+}
+.center {
+  text-align: left;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+}
+
+.comments {
+  margin: 20px 0;
+}
+
+.form-comment textarea {
+  width: 100%;
+  height: 84px;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 84px;
+  max-height: 300px;
+  padding: 10px;
+  line-height: 30px;
+  border: 1px solid #294b77;
+  margin-bottom: 20px;
+}
+
+.btn3 {
+  color: #fff;
+  background-color: #294b77;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+.form-comment .btn3:hover {
+  box-shadow: 0px 0px 9px rgba(8, 8, 8, 0.226);
+  color: #fff;
+}
+
+.media {
+  display: flex;
+  border-top: 1px solid #bfbfbf;
+  padding-top: 20px;
+}
+
+.media img {
+  margin-right: 20px;
+}
+
+.media .name {
+  color: #294b77;
+}
+.media .name span {
+  font-size: 12px;
+  color: #464646;
+}
+
+.buttoms a {
+  font-size: 14px;
+  color: #294b77;
+  font-weight: bold;
+  text-decoration: none;
+  border-style: none;
+  margin-left: 20px;
+}
+
+.media .comentario {
+  margin-top: 10px;
+}
+
+.media .buttoms {
+  margin-bottom: 10px;
+}
+
+/* ========================== */
